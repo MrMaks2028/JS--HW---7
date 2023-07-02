@@ -1,0 +1,91 @@
+.trafficLights {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    margin: 0 auto;
+
+    width: 250px;
+    height: 600px;
+
+    border: 5px solid black;
+    border-radius: 30px;
+
+    background-color: gray;
+}
+
+#redLight {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    width: 150px;
+    height: 150px;
+
+    border: 5px solid black;
+    border-radius: 100px;
+
+    background-color: white;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#yellowLight {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    width: 150px;
+    height: 150px;
+
+    border: 5px solid black;
+    border-radius: 100px;
+
+    background-color: white;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#greenLight {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    width: 150px;
+    height: 150px;
+
+    border: 5px solid black;
+    border-radius: 100px;
+
+    background-color: white;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#btnSwitch {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto;
+
+    width: 125px;
+    height: 75px;
+
+    border: 4px solid black;
+    border-radius: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    cursor: pointer;
+}
